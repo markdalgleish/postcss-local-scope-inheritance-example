@@ -1,0 +1,7 @@
+.root:extends(.box from "styles/layout.css") {
+  border-color: blue;
+}
+
+.text:extends(.heading from "styles/typography.css") {
+  color: blue;
+}
