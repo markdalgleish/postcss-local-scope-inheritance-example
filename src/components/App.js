@@ -14,7 +14,7 @@ export default class App extends Component {
         <p>Both of them use classes called <strong>'.root'</strong> and <strong>'.text'</strong>.</p>
         <p>Typically, such generic classes would cause a naming collision since they all exist in the same global scope.</p>
         <p>However, <strong>each class has been replaced with a local identifier scoped to the component</strong> with <a href="https://github.com/webpack/css-loader">css-loader</a> and <a href="https://github.com/markdalgleish/postcss-local-scope">postcss-local-scope</a>.</p>
-        <p>These classes inheret from shared styles in a way that <a href="https://github.com/webpack/css-loader">css-loader</a> can optimise, resulting in a smaller payload with shared classes between components.</p>
+        <p>These classes inherit from shared styles in a way that <a href="https://github.com/webpack/css-loader">css-loader</a> can optimise, resulting in a smaller payload with shared classes between components.</p>
 
         <HelloWorld />
         <br />
